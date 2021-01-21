@@ -91,7 +91,7 @@ with open('filename.csv','r') as file1:
                         xp = xp1[i]
                         class1 = class2[i]
                         print("\n\nSorry If you choose wrong class but your class has been taken\n")
-                while(1): 
+                while(2): 
                     num2 = int(input("\n\n1.\tChange HP\n2.\tChange XP\n3.\tGet current stats\n4.\tExit\n\n"))
                     if(num2 == 1):
                       hp = player().hpchange(hp)
